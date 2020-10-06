@@ -1,0 +1,46 @@
+#carousel_landing{
+    height: 100vh;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+
+.carousel-item{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#carousel_landing .carousel-inner,
+#carousel_landing .carousel-item{
+    height: 100%;
+}
+
+#slide_one{
+    background-image: url(../img/slideOne.jpg);
+}
+
+#slide_two{
+    background-image: url(../img/slideTwo.jpg);
+}
+
+#slide_three{
+    background-image: url(../img/slideThree.jpg);
+}
+
+#slide_four{
+    background-image: url(../img/slideFour.jpg);
+}
+
+#slide_five{
+    background-image: url(../img/slideFive.jpg);
+}
+
+p{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 1px;
+    /* background-color: rgba(0,0,0,.3); */
+    text-shadow: 3px 2px black;
+}
